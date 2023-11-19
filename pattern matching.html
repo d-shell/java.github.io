@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>pattern matching</title>
+    </head>
+    <body>
+        <nav class="nav-items">
+            <a href="website.html">Home</a>
+            <a href="#">dbms</a>
+            <a href="sql.html">sql</a>
+            <a href="#">plsql</a>
+          </nav>
+        <h1>pattern matching</h1>
+        <p>
+            Pattern matching is checking whether a specific sequence of characters or token or data exist within a dataset. It is a primary feature of any data management language and is also implemented in SQL.
+           <br> The LIKE operator is used with the WHERE clause.<br>
+            It enables users to use _ to match a single character<br>
+            and % to match an arbitrary number of characters.<br>
+          Pattern matching in MySQL is case-insensitive by default.<br>
+          To make the pattern matching case sensitive in MySQL, the BINARY operator is used.<br>
+</p><br>
+<p1>Syntax:</p1>
+<p>
+    SELECT entry FROM data WHERE column LIKE 'pattern';
+SELECT entry FROM data WHERE column NOT LIKE 'pattern';
+        </p>
+        <img src="#">
+    </body>
+    <style>
+        body{
+       background-color: lavender;
+   }
+    .nav-items {
+    background-color: #302f49;;
+       display: flex;
+     justify-content: space-around;
+     align-items: center;
+   }
+   
+   .nav-items a {
+     text-decoration: none;
+     color: white;
+     padding: 35px 20px;
+     font-size: 37px;
+     font-style: normal;
+   }a:hover{
+         background-color: yellowgreen;
+       }
+   h1{
+       font-style:normal;
+       font-size:32px;
+       text-decoration:underline;
+       font-family: 'Times New Roman', Times, serif;
+   }
+   p{
+       font-size:24px;
+   font-family: 'Times New Roman', Times, serif;
+   text-decoration:none;
+   }
+   p1{
+   text-decoration: underline;
+   font-size: 24px;
+   
+   }
+   </style>

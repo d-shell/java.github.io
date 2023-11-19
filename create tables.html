@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>create table command</title>
+    </head>
+    <body>
+        <nav class="nav-items">
+            <a href="website.html">Home</a>
+            <a href="#">dbms</a>
+            <a href="sql.html">sql</a>
+            <a href="#">plsql</a>
+          </nav>
+          <h1>show table command</h1>
+          <p>
+            show table command in sql is used to dispaly all the tables present in the database.
+        <br><br>
+        syntax:<br>
+        SHOW TABLES; 
+        </p>
+        <img src="#">
+        <h1>create table command</h1>
+        <p>A table is used to organize data in the form of rows and columns and used for both storing and displaying records in the structure format. It is similar to worksheets in the spreadsheet application. A table creation command requires three things:</p>
+<p>syntax:<br>
+    CREATE TABLE table_name;
+</p>
+<img src="1.png">
+<h1>desc table command</h1>
+<p>The desc is the short form of DESCRIBE command and used to display the information about a table like column names and constraints on column name.
+    <br><br>
+syntax:<br>
+DESC TABLE table_name; </p>
+<img src="#">
+<h1>create table from another table</h1>
+  <p>A copy of an existing table can be created using a combination of the CREATE TABLE statement and the SELECT statement. The new table has the same column definitions. All columns or specific columns can be selected. When you will create a new table using the existing table, the new table would be populated using the existing values in the old table.
+    <br>
+    Syntax:<br>
+    The basic syntax for creating a table from another table is as follows −
+    <br>
+    CREATE TABLE NEW_TABLE_NAME AS<br>
+       SELECT [ column1, column2...columnN ]<br>
+       FROM EXISTING_TABLE_NAME<br>
+       [ WHERE ]<br>
+    Here, column1, column2... are the fields of the existing table and the same would be used to create fields of the new table.
+ </p>
+ <img src="">
+</body>
+</html>
+<style>
+    body{
+        background-color: lavender;
+    }
+     .nav-items {
+        background-color:  #302f49;
+        display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    a:hover{
+      background-color: yellowgreen;
+    }
+    .nav-items a {
+      text-decoration: none;
+      color: white;
+      padding: 35px 20px;
+      font-size: 37px;
+      font-style: normal;
+    }
+    h1{
+        font-style:normal;
+        font-size:32px;
+        text-decoration:underline;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    p{
+        font-size:24px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration:none;
+    }
+    li{
+        font-size: 24px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+</style>

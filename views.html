@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>views</title>
+    </head>
+    <body>
+        <hi>views</hi>
+        <p>Views in SQL are kind of virtual tables. A view also has rows and columns as they are in a real table in the database. We can create a view by selecting fields from one or more tables present in the database. A View can either have all the rows of a table or specific rows based on certain condition. In this article we will learn about creating , deleting and updating Views. </p><br>
+   <h1>CREATING VIEWS</h1><br>
+<p>
+        We can create View using CREATE VIEW statement. A View can be created from a single table or multiple tables. Syntax:
+        <br>
+        CREATE VIEW view_name AS<br>
+        SELECT column1, column2.....<br>
+        FROM table_name<br>
+        WHERE condition;<br>
+        
+        view_name: Name for the View<br>
+        table_name: Name of the table<br>
+        condition: Condition to select rows</p>
+        <h1>DELETING VIEWS</h1><br>
+<p>
+            We have learned about creating a View, but what if a created View is not needed any more? Obviously we will want to delete it. SQL allows us to delete an existing View. We can delete or drop a View using the DROP statement. Syntax:
+            <br>
+            DROP VIEW view_name;
+            <br>
+            view_name: Name of the View which we want to delete.</h1>
+    </body>
+</html>
+<style>
+     body{
+        background-color: lavender;
+    }
+     .nav-items {
+     background-color: #302f49;;
+        display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    
+    .nav-items a {
+      text-decoration: none;
+      color: white;
+      padding: 35px 20px;
+      font-size: 37px;
+      font-style: normal;
+    }a:hover{
+          background-color: yellowgreen;
+        }
+    h1{
+        font-style:normal;
+        font-size:32px;
+        text-decoration:underline;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    p{
+        font-size:24px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration:none;
+    }
+    p1{
+    text-decoration: underline;
+    font-size: 24px;
+    
+    }
+    h4{
+     font-size: 24px;
+     font-family: 'Times New Roman', Times, serif;
+ text-decoration: underline;
+    }
+ </style>
+ 
+</style>

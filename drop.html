@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>drop command</title>
+    </head>
+    <body>
+        <nav class="nav-items">
+            <a href="website.html">Home</a>
+            <a href="#">dbms</a>
+            <a href="sql.html">sql</a>
+            <a href="#">plsql</a>
+          </nav>
+        <h1>drop command</h1>
+        <p>The DROP command in SQL is used to drop entities such as databases, tables, columns, indexes, constraints, etc. When an entity is dropped, all its related information (data and metadata) will be deleted. For example, all related information, such as data, index, constraints, etc., will be deleted when a table is dropped.</p>
+        <p1>syntax:</p1>
+        <p>Syntax Of Drop Command In SQL<br>
+          Below are the various possible ways to use the DROP command to delete different types of database entities.
+  </p> <br>       
+      <p1> DROP DATABASE</p1><br>
+          <p>The DROP DATABASE command is used to delete the entire database. When a database is deleted, all the tables, indexes, constraints, etc., present in it will be deleted. All the data stored in the database will be deleted. The syntax for dropping a database is
+          <br>
+          DROP DATABASE <database_name><br>
+          database_name - The name of the database to be deleted.<br>
+          </p>
+          <p1>DROP TABLE</p1><br>
+          <p>The DROP TABLE command is used to delete the specified table and the data stored. The syntax for dropping a table is
+          </p><br>
+         <p> DROP TABLE <table_name><br>
+          table_name - The name of the table to be deleted</p>.<br>
+          <p1>DROP COLUMN</p1><br>
+          <p>
+The DROP COLUMN command is used to delete a column in a table. The syntax for dropping a column is
+<br>
+ALTER TABLE <table_name><br>
+DROP COLUMN <column_name>;<br>
+<p>column_name - The name of the column to be deleted.<br>
+table_name - The table on which the column is present.<br>
+</p>
+<p1>DROP INDEX</p1><br>
+<p>The DROP INDEX command is used to delete an index on a column or a group of columns in a table. The syntax for dropping an index is
+<br>
+DROP INDEX <index_name>;<br>
+index_name - The name of the index to be deleted.<br>
+</p>
+<p1>DROP CONSTRAINT</p1><br>
+<p>The DROP CONSTRAINT command is used to delete a constraint in a table. The syntax for dropping a constraint is
+<br>
+ALTER TABLE <table_name><br>
+DROP CONSTRAINT <constraint_name>;<br>
+constraint_name - The name of the constraint to be deleted.<br>
+table_name - The table in which the constraint is present.</p><br>
+<img src="#">    
+</body>
+</html>
+<style>
+     body{
+    background-color: lavender;
+}
+ .nav-items {
+ background-color: #302f49;;
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: white;
+  padding: 35px 20px;
+  font-size: 37px;
+  font-style: normal;
+}a:hover{
+      background-color: yellowgreen;
+    }
+h1{
+    font-style:normal;
+    font-size:32px;
+    text-decoration:underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-size:24px;
+font-family: 'Times New Roman', Times, serif;
+text-decoration:none;
+}
+p1{
+text-decoration: underline;
+font-size: 24px;
+
+}
+</style>

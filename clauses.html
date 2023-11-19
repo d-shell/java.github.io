@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>clauses</title>
+    </head>
+<body>
+    <nav class="nav-items">
+        <a href="website.html">Home</a>
+        <a href="#">dbms</a>
+        <a href="sql.html">sql</a>
+        <a href="#">plsql</a>
+      </nav>
+    <h1>clauses in sql</h1>
+    <p>
+        Clauses in SQL are similar to conditionals in high-level languages.<br>
+
+SQL being a query language requires a method to apply constraints on the data and for this we use Clauses.
+<br>
+We have a large variety in the SQL clauses like the Where clause, Union Clase, Order By clause etc.
+<br>
+Clauses help us to restrict and manage the data using valid constraints on the data in our database.
+<br>
+Use of SQL Clause<br>
+Some of the uses of SQL Clauses are as follows:<br>
+
+1. Allow us to apply constraints on data.<br>
+
+2. Help us to reduce the complexity of the query.<br>
+
+3. With the help of clauses, we can filter the data according to our requirements.<br>
+
+4. Allow us to restrict the number of outputs we need.<br>
+
+5. Help in writing user-friendly queries, which are easy to read and understand.<br>
+    </p>
+    <h4>Types of SQL Clauses</h4><br>
+    <p>We have a variety of SQL clauses available. Let us now discuss each of them in detail.</p><br>
+    <h4> WHERE Clause in SQL</h4><br>
+       <p> It is an integral part of any query and allows us to apply constraints on the query output.<br>
+    </p><p1>Syntax:</p1><br>
+        <p>
+        SELECT * FROM tableName WHERE condition;
+        </p>
+        <img src="#">
+<h4>GROUP By Clause in SQL</h4><br>
+    <p>Group By clause is used with the select statement to get similar data in manageable groups.</p>
+  <br>
+  <p1>Syntax:</p1><br>
+    <p>
+    SELECT col1, col2,<br> 
+    col3 , .....<br>
+    FROM tableName<br>
+    WHERE conditions <br>
+    GROUP BY col1, col2;<br>
+    </p>
+<img src="#"><br>
+<h4> ORDER By Clause in SQL</h4><br>
+    <p>Allows us to explicitly decide the order of the output of our query.</p><br>
+    <p1>Syntax:</p1><br>
+    <p>
+    SELECT col1, col2, <br>
+    col3 , .....<br>
+    FROM tableName<br>
+    WHERE conditions <br>
+    GROUP BY col1, col2<br>
+    ORDER BY col1, col2<br>
+    <img src="#"><br>
+    <h4>HAVING Clause in SQL</h4><br>
+        <p>It comes in handy when we need to apply aggregate functions as we can’t use aggregate functions with the WHERE clause.</p><br>
+        <p1>Syntax:</p1><br>
+        <p>
+        SELECT col1 , col2 , col3,.....<br>
+        FROM tableName<br>
+        WHERE condition<br>
+        GROUP BY col1<br>
+        HAVING condition<br>
+        ORDER BY col1;<br>
+    </p>
+</body>
+<style>
+ body{
+       background-color: lavender;
+   }
+    .nav-items {
+    background-color: #302f49;;
+       display: flex;
+     justify-content: space-around;
+     align-items: center;
+   }
+   
+   .nav-items a {
+     text-decoration: none;
+     color: white;
+     padding: 35px 20px;
+     font-size: 37px;
+     font-style: normal;
+   }a:hover{
+         background-color: yellowgreen;
+       }
+   h1{
+       font-style:normal;
+       font-size:32px;
+       text-decoration:underline;
+       font-family: 'Times New Roman', Times, serif;
+   }
+   p{
+       font-size:24px;
+   font-family: 'Times New Roman', Times, serif;
+   text-decoration:none;
+   }
+   p1{
+   text-decoration: underline;
+   font-size: 24px;
+   
+   }
+   h4{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+text-decoration: underline;
+   }
+</style>
+</html>
